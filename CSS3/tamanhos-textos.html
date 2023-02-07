@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tamenhos de textos</title>
+
+	<style type="text/css">
+		div {
+			font-size: 20px;
+		}
+
+		.texto {
+			/* medidas
+			px -> tamanho fixo
+			% -> tamanho relativo
+			em -> tamanho relativo ao container pai
+			/*font-size: 32px;*/
+			font-size: 2em;	/* significa que o texto 1 te o dobro do tamanho do 2 EM sempre proporcional ao container pai */	
+		}		
+
+		.texto2 {
+			font-size: 2em;
+		}
+
+	</style>
+</head>
+<body>
+	<div> <!-- A DIV NESSE CASO É O PAI DO PARAGRAFO QUE ESTA DENTRO DA DIV  -->
+		<p class="texto">Conteúdo</p>
+		<p class="texto2">Conteúdo 2</p><!-- FOI APLICADO O QUE A UNIDADE ADICIONADA AO FILHO -->
+	</div> <!-- a preferencia se ouver classe estabelecida para o filho é sempre do filho -->
+	
+
+</body>
+</html>

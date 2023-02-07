@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Elementos Flutuantes</title>
+
+		<style type="text/css">
+
+			#principal {
+				border: 5px solid red;
+				background: grey;
+
+			}
+			.conteudo {
+				background: blue;
+				border: 1px solid grey;
+				width: 150px;
+				height: 150px;
+				margin: 10px;
+				float: left; /* o conteudo é posicionado a esquerda pois nao cabe em no conteudo 1  */
+			}
+
+			 /*.conteudo1 {
+				background: red;
+				border: 1px solid grey;
+				width: 150px;
+				height: 150px;
+				margin: 10px;
+				float: left;
+			}*/
+
+			.conteudo-zero {
+				background: red;
+				border: 1px solid red;
+				width: 150px;
+				height: 150px;
+				margin: 10px;
+			
+			}
+
+			.clear {
+				clear: both;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<div id="principal">
+			<div class="conteudo">
+				conteudo
+			</div>
+
+			<div class="conteudo">
+				conteudo 2
+			</div>
+
+			<div class="conteudo">
+				conteudo 3 
+			</div>
+			<div class="clear"></div>
+		</div>
+
+
+	</body>
+</html>
