@@ -1,0 +1,155 @@
+/*************************
+ * Seletor universal 
+ * {
+ 	border: 1px solid red;
+ }*/
+
+/*************************
+ * Seletor de texto 
+
+ h1 {
+ 	color: green ;
+ }*/
+
+
+/*************************
+ * Seletor de classe 
+
+ .verde {
+ 	color: green;
+ }
+
+ p.verde {
+ 	color: green; 
+ } */
+
+ /*************************
+ * Seletor de ID 
+ #cabecalho {
+ 	border: 1px solid blue;
+ }*/
+
+
+/*************************
+ * Seletor de filho 
+
+li>a {
+	color: red;
+	text-decoration: none;
+}*/
+
+/*************************
+ * Seletor de descendente 
+
+div a {
+ 	color: green;
+ } */
+
+
+/*************************
+ * Seletor de  irmão adjacente
+
+h1+p {
+	color: red;
+} */
+
+/*************************
+ * Seletor de  irmão geral
+
+h1~p {
+	color: red;
+}
+*/
+
+
+
+
+/**********************
+   HERANÇA E ESPECIFICIDADE
+*/
+
+
+/* Seletores iguais, exeção important *
+#pagina p {
+	color: red !important;
+}
+
+#pagina p{
+	color: blue;
+} */
+
+/* SE UM SELETOR FOR MAIS ESPECÍFICO QUE OUTRO A REGRA MAIS ESPECIFICA SERÁ APLICADA
+(TERÁ PRECEDÊNCIA SOBRE REGRAS MAIS GERAIS)
+ */
+
+/*
+* {
+	color: red;
+}
+
+h2 {  3 a ser aplicado
+	color: blue;
+}
+
+h2.verde {  2 a ser aplicado
+	color: green;
+}
+
+
+h2#amarelo { 1 a ser aplicado
+	color: yellow;
+} 
+*/
+
+
+/* NAVEGAÇÃO VERTICAL */
+
+/*
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 5px 20px;
+	background: url(../imagens/seta.png) no-repeat left center;
+}
+
+*/
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height:40px;
+	background: url(../imagens/menu.png) no-repeat left; bottom; 
+}
+
+a:hover {
+	background-position: right bottom;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
