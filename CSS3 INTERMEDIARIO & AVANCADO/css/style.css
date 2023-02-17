@@ -102,7 +102,9 @@ h2#amarelo { 1 a ser aplicado
 */
 
 
-/* NAVEGAÇÃO VERTICAL */
+/*****************
+ * BARRA DE NAVEGAÇÃO VERTICAL 
+ * ************/
 
 /*
 ul {
@@ -116,7 +118,7 @@ li {
 	background: url(../imagens/seta.png) no-repeat left center;
 }
 
-*/
+
 
 
 ul {
@@ -133,13 +135,201 @@ ul a {
 	text-decoration: none;
 	text-indent: 40px;
 	line-height:40px;
-	background: url(../imagens/menu.png) no-repeat left; bottom; 
+	background: #f7b600 url(../imagens/menu.png) no-repeat left; bottom; 
 }
 
 a:hover {
 	background-position: right bottom;
+	background-color: #f99200;
 	color: #fff;
 }
+
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+
+*/
+
+
+
+/*****************
+ * BARRA DE NAVEGAÇÃO HORIZONTAL 
+ * ************/
+
+/*
+ul  {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+	float: left;
+
+}
+
+ul li {
+	float: left;
+}
+
+ul a {
+	display: block;
+	padding: 0 2em;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a{
+	background: none;
+}
+
+ul a:hover {
+	color: #8085662;
+	background: #44cade;
+}
+
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a {
+	background-position: right bottom;
+	color: #8085662;
+	background: #44cade;
+}
+
+*/
+
+
+/*****************
+ * BARRA DE NAVEGAÇÃO COM ABAS 
+ * ************/
+/*
+body {
+	font-family: "Trebuche", Helvetica, sans-serif;
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+}
+
+ul li {
+	float: left;
+	background: url(../imagens/aba-direita.png) no-repeat right top;
+}
+
+
+li a {
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	text-decoration: none;
+	background: url(../imagens/aba-esquerda.png) no-repeat left top;
+	color: #FFF;
+}
+
+
+ul a:hover {
+	color: #894a1f;
+}
+
+
+ul #atual {
+	background: url(../imagens/aba-direita-atual.png) no-repeat right top;
+}
+
+
+ul #atual a {
+	background: url(../imagens/aba-esquerda-atual.png) no-repeat left top;
+
+}
+*/
+
+
+
+/*****************
+ * Layouts fixo 
+ * ************/
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+
+#container {
+	width: 720px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+#marca {
+	height: 100px;
+	background: #9e9e9e;
+	text-align: center;
+	line-height: 100px;
+}
+
+#conteudo {
+	width: 520px;
+	float: right;
+}
+
+#conteudo-principal {
+	width: 320px;
+	float: left;
+}
+
+
+#conteudo-secundario {
+	width: 180px;
+	float: right;
+	background: #d1d1d1;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navegacao{
+	width: 180px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #d1d1d1;
+	text-decoration: none;
+}
+
+#navegacao ul {
+	list-style: none;
+}
+
+#navegacao li a {
+	text-decoration: none;
+}
+
+#rodape {
+	 clear: both;
+	 background: #c4c4c4;
+	 padding: 5px;
+
+}
+
+
+
 
 
 
