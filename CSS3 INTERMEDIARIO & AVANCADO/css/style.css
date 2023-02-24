@@ -64,6 +64,9 @@ h1~p {
 
 
 
+
+
+
 /**********************
    HERANÇA E ESPECIFICIDADE
 */
@@ -100,6 +103,13 @@ h2#amarelo { 1 a ser aplicado
 	color: yellow;
 } 
 */
+
+
+
+
+
+
+
 
 
 /*****************
@@ -157,6 +167,10 @@ a:hover {
 
 
 
+
+
+
+
 /*****************
  * BARRA DE NAVEGAÇÃO HORIZONTAL 
  * ************/
@@ -206,6 +220,10 @@ ul a:hover {
 */
 
 
+
+
+
+
 /*****************
  * BARRA DE NAVEGAÇÃO COM ABAS 
  * ************/
@@ -253,6 +271,12 @@ ul #atual a {
 
 }
 */
+
+
+
+
+
+
 
 
 
@@ -332,6 +356,10 @@ body {
 
 
 
+
+
+
+
 /*****************
  * Layouts Liquido 
  * ************/
@@ -408,6 +436,12 @@ body {
 
 }
 */
+
+
+
+
+
+
 
 /*****************
  * Imagens Liquidas
@@ -493,6 +527,10 @@ img.img-noticia {
 
 }
 */
+
+
+
+
 
 
 
@@ -628,4 +666,73 @@ tr:hover {
 	text-align: right;
 }
 */
+
+
+
+
+
+
+
+ /*****************
+ * Estilizando Formulários
+ * ************/
+/*
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+fieldset {
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+	margin: 1em 0;
+}
+
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input[type="text"] {
+	width: 20em;
+}
+
+
+textarea {
+	width: 20em;
+	height: 10em;
+}
+
+
+input.radio, input.checkbox, input.submit {
+	width: auto;
+}
+
+
+.radio {
+	margin-right: 1em;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
